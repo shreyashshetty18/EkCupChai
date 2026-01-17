@@ -17,6 +17,6 @@ Ek Cup Chai is a modern, responsive frontend web application inspired by the “
 ## 📦 Installation & Setup
 ```bash
 git clone https://github.com/codingmastr/EK-Cup-Chai.git
-cd EK-Cup-Chai
+cd project directory
 npm install
 npm run dev
