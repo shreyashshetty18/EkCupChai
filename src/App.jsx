@@ -7,11 +7,11 @@ function App() {
   
   return (
     <Router>
-      <Route>
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
-      </Route>
+      </Routes>
       
     </Router>
   )
