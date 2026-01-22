@@ -12,6 +12,11 @@ const Login = () => {
         alt="Logo"
         className='w-6 h-6 sm:w-8 sm:h-8 cursor-pointer' />
         </Link>
+        <p className='text-xs sm:text-sm'>Don't have an Account?{" "}
+          <Link to="/signup" className='text-black font-medium underline'>
+          Sign Up
+          </Link>
+        </p>
       </div>
 
     </div>
