@@ -83,7 +83,7 @@ const Navbar = () => {
         <div className="hidden md:flex absolute left-1/2 transform -translate-x-1/2">
           <div className="flex items-center gap-2">
             <img src={logo} alt="Ek Cup Chai" className="w-12 h-12 object-contain" />
-            <h1 className="logo-font text-lg text-chaiBrown leading-none pt-1">Ek Cup Chai</h1>
+            <h1 className="logo-font text-lg font-bold text-chaiBrown leading-none pt-1">Ek Cup Chai</h1>
           </div>
         </div>
 
