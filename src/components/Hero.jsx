@@ -16,6 +16,9 @@ const Hero = () => {
         <h1 className='text-5xl sm:text-7xl md:text-8xl font-extrabold text-black leading-tight md-6 text-center'>Create More.<br />
         <span className='logo-font text-chaiBrown'>Chai More.</span>
         </h1>
+
+        {/* Subheading */}
+        <p className='text-base sm:text-xl text-gray-500 mt-10 mb-18 tracking-wide text-center px-2 sm:px-8 whitespace-nowrap overflow-hidden text-ellipsis'>Serving content? Let your fans serve the chai. It's simpler than you think.</p>
       </div>
     </section>
   )
