@@ -2,7 +2,7 @@
 
 Ek Cup Chai is a modern, responsive frontend web application inspired by the “Buy Me a Coffee” concept. The project focuses on clean UI, component-based design, and responsive layouts using modern web technologies.
 
-## 🔗 Live Link (Under Progress) -> https://ekcupchai.netlify.app/
+## 🔗 Live Link (Work in Progress) -> https://ekcupchai.netlify.app
 
 ## 🚀 Features
 - Responsive and mobile-friendly design  
