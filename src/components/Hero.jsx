@@ -136,7 +136,7 @@ const Card = ({ name, supporters, avatar }) => (
     className="backdrop-blur-md bg-[#edcfbc]/50 text-chaiBrown rounded-2xl p-4 text-center text-sm flex flex-col items-center gap-2 border border-[#BB591C]"
     style={{
       boxShadow:
-        "rgba(187, 89, 28, 0.25) 0px 50px 100px -20px, rgba(187, 89, 28, 0.3) 0px 30px 60px -30px, rgba(187, 89, 28, 0.35) 0px -2px 6px 0px inset",
+        "rgba(153, 69, 17, 0.25) 0px 50px 100px -20px, rgba(187, 89, 28, 0.3) 0px 30px 60px -30px, rgba(187, 89, 28, 0.35) 0px -2px 6px 0px inset",
     }}
   >
     <img
