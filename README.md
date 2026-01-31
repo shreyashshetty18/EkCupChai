@@ -16,6 +16,42 @@ Ek Cup Chai is a modern, responsive frontend web application inspired by the “
 - JavaScript  
 - HTML & CSS  
 
+## 🌳 Folder Structure
+
+```
+├── 📁 public
+│   └── 🖼️ vite.svg
+├── 📁 src
+│   ├── 📁 assets
+│   │   ├── 🖼️ ecc_logo.png
+│   │   ├── 🖼️ features.png
+│   │   ├── 🖼️ publish.png
+│   │   └── 🖼️ work.png
+│   ├── 📁 components
+│   │   ├── 📄 CallToAction.jsx
+│   │   ├── 📄 Features.jsx
+│   │   ├── 📄 Footer.jsx
+│   │   ├── 📄 Hero.jsx
+│   │   ├── 📄 HowItworks.jsx
+│   │   ├── 📄 Navbar.jsx
+│   │   ├── 📄 Publish.jsx
+│   │   └── 📄 Testimonials.jsx
+│   ├── 📁 pages
+│   │   ├── 📄 Home.jsx
+│   │   ├── 📄 Login.jsx
+│   │   └── 📄 Signup.jsx
+│   ├── 🎨 App.css
+│   ├── 📄 App.jsx
+│   ├── 🎨 index.css
+│   └── 📄 main.jsx
+├── ⚙️ .gitignore
+├── 📝 README.md
+├── 📄 eslint.config.js
+├── 🌐 index.html
+├── ⚙️ package-lock.json
+├── ⚙️ package.json
+└── 📄 vite.config.js
+
 ## 📦 Installation & Setup
 ```bash
 git clone https://github.com/codingmastr/EK-Cup-Chai.git
