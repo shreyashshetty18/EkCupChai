@@ -52,9 +52,4 @@ Ek Cup Chai is a modern, responsive frontend web application inspired by the “
 ├── ⚙️ package.json
 └── 📄 vite.config.js
 
-## 📦 Installation & Setup
-```bash
-git clone https://github.com/codingmastr/EK-Cup-Chai.git
-cd project directory
-npm install
-npm run dev
+
