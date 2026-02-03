@@ -115,7 +115,54 @@ const Testimonials = () => {
         </button>
       </div>
 
-     
+      {/* Faded Edges */}
+      <div className="relative">
+        <div className="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-[#f5f1ee] to-transparent z-10 pointer-events-none" />
+        <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-[#f5f1ee] to-transparent z-10 pointer-events-none" />
+
+        {/* Testimonials */}
+        <div
+          ref={scrollRef}
+          className="flex sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-y-14 sm:gap-x-6 max-w-6xl mx-auto overflow-x-auto sm:overflow-visible no-scrollbar px-2 sm:px-0 scroll-smooth snap-x snap-mandatory"
+        >
+          {testimonials.map((item, index) => (
+            <div
+              key={index}
+              className={`min-w-full sm:min-w-0 snap-center group bg-[#fffaf6] rounded-xl p-6 text-left border border-gray-200 transition-all duration-300 hover:scale-[1.02] ${activeIndex === index ? "shadow-lg" : ""
+                } hover:shadow-[rgba(187,89,28,0.25)_0px_50px_100px_-20px,rgba(187,89,28,0.3)_0px_30px_60px_-30px,rgba(187,89,28,0.35)_0px_-2px_6px_0px_inset]`}
+              style={{
+                boxShadow:
+                  "rgba(187, 89, 28, 0.08) 0px 20px 40px -10px, rgba(187, 89, 28, 0.12) 0px 15px 30px -15px, rgba(187, 89, 28, 0.18) 0px -1px 3px 0px inset",
+              }}
+            >
+              <HiOutlineChatBubbleLeftRight className="text-7xl text-chaiBrown opacity-40 group-hover:opacity-100 transition-opacity duration-300 mb-4" />
+              <p className="text-sm text-gray-700 italic mb-6">"{item.quote}"</p>
+              <div className="flex items-center gap-3">
+                <img
+                  src={item.avatar}
+                  alt={item.name}
+                  className="w-10 h-10 rounded-full object-cover"
+                />
+                <div>
+                  <p className="text-sm font-semibold text-gray-900">{item.name}</p>
+                  <p className="text-xs text-gray-500">{item.title}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Pagination Dots */}
+      <div className="flex justify-center sm:hidden mt-6 space-x-2">
+        {testimonials.map((_, index) => (
+          <span
+            key={index}
+            className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${activeIndex === index ? "bg-[#3e2723]" : "bg-[#efe2db]"
+              }`}
+          ></span>
+        ))}
+      </div>
     </section>
   );
 };
