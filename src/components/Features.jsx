@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaBolt, FaCogs, FaUserFriends } from 'react-icons/fa';
 import { FaMoneyBill1Wave } from 'react-icons/fa6';
 import logo from "../assets/ecc_logo.png";

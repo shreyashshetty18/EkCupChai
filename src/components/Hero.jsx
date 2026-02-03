@@ -1,4 +1,3 @@
-import React from "react";
 import { FaHeart, FaStar } from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
 import logo from "../assets/ecc_logo.png";
