@@ -39,7 +39,15 @@ const Footer = () => {
           </div>
         </div>
 
-        
+        {/* Navigation Links */}
+        <div className="flex flex-wrap justify-center sm:justify-between gap-x-6 gap-y-3 font-semibold text-[#1c1c1c] text-center sm:text-left">
+          <a href="#" className="hover:opacity-70 transition-opacity">About</a>
+          <a href="#" className="hover:opacity-70 transition-opacity">Help Center</a>
+          <a href="#" className="hover:opacity-70 transition-opacity">Apps</a>
+          <a href="#" className="hover:opacity-70 transition-opacity">Resources</a>
+          <a href="#" className="hover:opacity-70 transition-opacity">Privacy</a>
+          <a href="#" className="hover:opacity-70 transition-opacity">Terms</a>
+        </div>
       </div>
     </footer>
   );
